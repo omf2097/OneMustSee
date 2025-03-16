@@ -12,13 +12,15 @@ Fall 2097. It has some requirements to use:
 
 Compiling
 ---------
-
-> gcc onemust.c -o OneMustSee
+```
+$ gcc onemust.c -o OneMustSee
+```
 
 Usage
 -----
-
-> ./onemustsee <dosbox pid> [--csv]
+```
+# ./onemustsee <dosbox pid> [--csv]
+```
 
 In CSV mode it will emit a CSV header of the enabled fields, and then after each
 tick it will add a row to the field.
